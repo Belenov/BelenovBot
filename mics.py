@@ -4,7 +4,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from db import Database
 
 # Bot API (Telegram Bot) \\ telegram - BotFather
-API_TOKEN = "1893727909:AAHu2rUINfsAlOqKEASRhkhSLpBcRS-I8nM"
+API_TOKEN = ""
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 # Client API (User Bot) \\ https://my.telegram.org/auth
